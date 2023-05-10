@@ -23,14 +23,28 @@ const App = () => {
       Count: {state.count} 
       <br/> 
       <br/> 
+      
  
       <button onClick={() => dispatch({type: 'decrement'})}>-</button> 
       <button onClick={() => dispatch({type: 'increment'})}>+</button> 
+ 
+<div> 
+
+<h1> add date of births</h1>
+</div>
 
       <br></br>
       <input type="date"/>
-    </> 
+
+
+      <br></br>
+      <input type="date"/>
+     </>
       </div> 
-  ); 
+
+
+
+  
+  );
 }; 
 export default App;
